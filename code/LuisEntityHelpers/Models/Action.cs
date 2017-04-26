@@ -7,7 +7,7 @@
 
 using System.Collections.Generic;
 
-namespace Mrlacey.LuisEntityHelpers
+namespace LuisEntityHelpers
 {
     // TODO: migrate all models from https://github.com/Microsoft/Cognitive-LUIS-Windows/blob/master/ClientLibrary/Structures/
     public class Action

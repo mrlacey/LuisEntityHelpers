@@ -7,7 +7,7 @@
 
 using System.Collections.Generic;
 
-namespace Mrlacey.LuisEntityHelpers
+namespace LuisEntityHelpers
 {
     public class LuisResponse
     {

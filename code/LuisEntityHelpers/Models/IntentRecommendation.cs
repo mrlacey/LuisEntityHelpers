@@ -8,7 +8,7 @@
 using System.Collections.Generic;
 using System.Runtime.Serialization;
 
-namespace Mrlacey.LuisEntityHelpers
+namespace LuisEntityHelpers
 {
     [DataContract]
     public class IntentRecommendation

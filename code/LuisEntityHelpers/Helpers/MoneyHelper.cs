@@ -8,7 +8,7 @@
 using System;
 using System.Text.RegularExpressions;
 
-namespace Mrlacey.LuisEntityHelpers
+namespace LuisEntityHelpers
 {
     public class MoneyHelper : HelperCore
     {

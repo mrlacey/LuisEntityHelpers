@@ -9,7 +9,7 @@ using System;
 using System.Globalization;
 using System.Text.RegularExpressions;
 
-namespace Mrlacey.LuisEntityHelpers
+namespace LuisEntityHelpers
 {
     public class DateTimeHelper : HelperCore
     {

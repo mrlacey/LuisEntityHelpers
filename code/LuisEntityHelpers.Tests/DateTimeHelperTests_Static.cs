@@ -8,7 +8,7 @@
 using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace Mrlacey.LuisEntityHelpers.Tests
+namespace LuisEntityHelpers.Tests
 {
     [TestClass]
     public class DateTimeHelperTests_Static

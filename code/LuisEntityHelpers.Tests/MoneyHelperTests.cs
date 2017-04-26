@@ -7,7 +7,7 @@
 
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace Mrlacey.LuisEntityHelpers.Tests
+namespace LuisEntityHelpers.Tests
 {
     [TestClass]
     public partial class MoneyHelperTests

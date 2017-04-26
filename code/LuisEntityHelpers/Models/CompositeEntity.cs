@@ -7,7 +7,7 @@
 
 using System.Collections.Generic;
 
-namespace Mrlacey.LuisEntityHelpers
+namespace LuisEntityHelpers
 {
     // TODO: remove if not used/needed
     public class CompositeEntity

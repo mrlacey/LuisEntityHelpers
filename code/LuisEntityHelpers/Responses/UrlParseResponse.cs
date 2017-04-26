@@ -4,7 +4,7 @@
 // </copyright>
 // <author>Matt Lacey</author>
 
-namespace Mrlacey.LuisEntityHelpers
+namespace LuisEntityHelpers
 {
     public class UrlParseResponse : BaseParseResponse
     {

@@ -5,7 +5,7 @@
 // <author>Matt Lacey</author>
 // <author>D.A.M. Good Media Ltd.</author>
 
-namespace Mrlacey.LuisEntityHelpers
+namespace LuisEntityHelpers
 {
     public class TemperatureParseResponse : BaseParseResponse
     {

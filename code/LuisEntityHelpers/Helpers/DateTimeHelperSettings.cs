@@ -7,7 +7,7 @@
 
 using System;
 
-namespace Mrlacey.LuisEntityHelpers
+namespace LuisEntityHelpers
 {
 #pragma warning disable SA1623 // PropertySummaryDocumentationMustMatchAccessors
     public class DateTimeHelperSettings

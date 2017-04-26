@@ -6,7 +6,7 @@
 
 using System;
 
-namespace Mrlacey.LuisEntityHelpers
+namespace LuisEntityHelpers
 {
     // TODO: implement
     // TODO: add tests

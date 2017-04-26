@@ -7,7 +7,7 @@
 
 using System;
 
-namespace Mrlacey.LuisEntityHelpers
+namespace LuisEntityHelpers
 {
     public class OrdinalHelper : HelperCore
     {
