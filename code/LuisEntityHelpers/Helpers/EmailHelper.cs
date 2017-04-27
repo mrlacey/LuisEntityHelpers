@@ -19,7 +19,7 @@ namespace LuisEntityHelpers
                 throw new ArgumentNullException(nameof(entityRecommendation));
             }
 
-            if (entityRecommendation.Name == Builtin.Email)
+            if (entityRecommendation.Type == Builtin.Email)
             {
                 throw new NotImplementedException();
             }

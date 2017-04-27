@@ -48,7 +48,7 @@ namespace LuisEntityHelpers
 
             DateTimeParseResponse result;
 
-            if (entityRecommendation.Name?.StartsWith(Builtin.DateTime.Prefix) ?? false)
+            if (entityRecommendation.Type?.StartsWith(Builtin.DateTime.Prefix) ?? false)
             {
                 var resType = DateTimeResolutionType.Unsupported; // default to something to keep compiler happy while writing logic below - should be able to remove this eventually
                 DateTime? datetime = null;
@@ -56,7 +56,7 @@ namespace LuisEntityHelpers
                 DateTime? endtime = null;
                 TimeSpan? duration = null;
 
-                switch (entityRecommendation.Name)
+                switch (entityRecommendation.Type)
                 {
                     case Builtin.DateTime.Date:
                         if (!entityRecommendation.Resolution.ContainsKey("date"))

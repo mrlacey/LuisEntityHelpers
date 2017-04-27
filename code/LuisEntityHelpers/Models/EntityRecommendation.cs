@@ -6,55 +6,23 @@
 // <author>D.A.M. Good Media Ltd.</author>
 
 using System.Collections.Generic;
-using System.Runtime.Serialization;
 
 namespace LuisEntityHelpers
 {
-    [DataContract]
     public class EntityRecommendation
     {
-#pragma warning disable SA1309 // Field names must not begin with underscore
-        [DataMember(Name = "role")]
-        private string _role = null;
+        public string Role { get; set; }
 
-        [DataMember(Name = "entity")]
-        private string _entity = null;
+        public string Entity { get; set; }
 
-        [DataMember(Name = "type")]
-        private string _type = null;
+        public string Type { get; set; }
 
-        [DataMember(Name = "startIndex")]
-        private int? _startIndex = null;
+        public int? StartIndex { get; set; }
 
-        [DataMember(Name = "endIndex")]
-        private int? _endIndex = null;
+        public int? EndIndex { get; set; }
 
-        [DataMember(Name = "score")]
-        private double? _score = null;
+        public double? Score { get; set; }
 
-        [DataMember(Name = "resolution")]
-        private IDictionary<string, string> _resolution = null;
-#pragma warning restore SA1309 // Field names must not begin with underscore
-
-        [IgnoreDataMember]
-        public string Role => this._role;
-
-        [IgnoreDataMember]
-        public string Value => this._entity;
-
-        [IgnoreDataMember]
-        public string Name => this._type;
-
-        [IgnoreDataMember]
-        public int? StartIndex => this._startIndex;
-
-        [IgnoreDataMember]
-        public int? EndIndex => this._endIndex;
-
-        [IgnoreDataMember]
-        public double? Score => this._score;
-
-        [IgnoreDataMember]
-        public IDictionary<string, string> Resolution => this._resolution;
+        public IDictionary<string, string> Resolution { get; set; }
     }
 }

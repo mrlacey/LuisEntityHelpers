@@ -19,9 +19,9 @@ namespace LuisEntityHelpers
                 throw new ArgumentNullException(nameof(entityRecommendation));
             }
 
-            if (entityRecommendation.Name == Builtin.Dimension)
+            if (entityRecommendation.Type == Builtin.Dimension)
             {
-                var entityParts = entityRecommendation.Value.Split(' ');
+                var entityParts = entityRecommendation.Entity.Split(' ');
 
                 double value = 1;
                 string scale = string.Empty;

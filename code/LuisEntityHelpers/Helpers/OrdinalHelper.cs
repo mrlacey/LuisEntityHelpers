@@ -18,7 +18,7 @@ namespace LuisEntityHelpers
                 throw new ArgumentNullException(nameof(entityRecommendation));
             }
 
-            if (entityRecommendation.Name == Builtin.Ordinal)
+            if (entityRecommendation.Type == Builtin.Ordinal)
             {
                 if (!entityRecommendation.Resolution.ContainsKey("value"))
                 {

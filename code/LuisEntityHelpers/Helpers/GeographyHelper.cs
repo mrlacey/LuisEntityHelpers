@@ -19,7 +19,7 @@ namespace LuisEntityHelpers
                 throw new ArgumentNullException(nameof(entityRecommendation));
             }
 
-            if (entityRecommendation.Name.StartsWith(Builtin.Geography.Prefix))
+            if (entityRecommendation.Type.StartsWith(Builtin.Geography.Prefix))
             {
                 throw new NotImplementedException();
             }

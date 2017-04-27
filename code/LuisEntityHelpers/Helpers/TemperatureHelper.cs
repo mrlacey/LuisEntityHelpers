@@ -19,12 +19,12 @@ namespace LuisEntityHelpers
                 throw new ArgumentNullException(nameof(entityRecommendation));
             }
 
-            if (entityRecommendation.Name == Builtin.Temperature)
+            if (entityRecommendation.Type == Builtin.Temperature)
             {
                 double value = 0;
                 var scale = default(TemperatureScale);
 
-                var entityParts = entityRecommendation.Value.Split(' ');
+                var entityParts = entityRecommendation.Entity.Split(' ');
 
                 string stringValue = string.Empty;
 

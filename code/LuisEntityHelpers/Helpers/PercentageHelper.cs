@@ -18,7 +18,7 @@ namespace LuisEntityHelpers
                 throw new ArgumentNullException(nameof(entityRecommendation));
             }
 
-            if (entityRecommendation.Name == Builtin.Percentage)
+            if (entityRecommendation.Type == Builtin.Percentage)
             {
                 if (!entityRecommendation.Resolution.ContainsKey("value"))
                 {

@@ -7,8 +7,8 @@
 
 using System;
 using System.IO;
-using System.Runtime.Serialization.Json;
 using System.Text;
+using Newtonsoft.Json;
 
 namespace LuisEntityHelpers
 {
@@ -24,13 +24,15 @@ namespace LuisEntityHelpers
             EntityRecommendation resp;
             try
             {
-                using (var ms = new MemoryStream(Encoding.UTF8.GetBytes(entityRecommendation)))
-                {
-                    var ser = new DataContractJsonSerializer(typeof(EntityRecommendation), new DataContractJsonSerializerSettings { UseSimpleDictionaryFormat = true });
-                    resp = ser.ReadObject(ms) as EntityRecommendation;
-                }
+                //using (var ms = new MemoryStream(Encoding.UTF8.GetBytes(entityRecommendation)))
+                //{
+                //    var ser = new DataContractJsonSerializer(typeof(EntityRecommendation), new DataContractJsonSerializerSettings { UseSimpleDictionaryFormat = true });
+                //    resp = ser.ReadObject(ms) as EntityRecommendation;
+                //}
 
-                if (resp?.Name == null || resp.Value == null)
+                resp = JsonConvert.DeserializeObject<EntityRecommendation>(entityRecommendation);
+
+                if (resp?.Type == null || resp.Entity == null)
                 {
                     throw new ArgumentException(nameof(entityRecommendation));
                 }

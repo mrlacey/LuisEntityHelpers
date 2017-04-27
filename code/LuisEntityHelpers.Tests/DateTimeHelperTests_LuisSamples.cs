@@ -87,7 +87,7 @@ namespace LuisEntityHelpers.Tests
         [TestMethod]
         public void SampleResponse06_ProcessedOk()
         {
-            var json = "{ \"entity\": \"week of september 30th\", \"type\": \"builtin.datetime.date\", \"resolution\": {\"comment\": \"weekof\", \"date\": \"XXXX-09-30\"} ";
+            var json = "{ \"entity\": \"week of september 30th\", \"type\": \"builtin.datetime.date\", \"resolution\": {\"comment\": \"weekof\", \"date\": \"XXXX-09-30\"} }";
 
             var sut = new DateTimeHelper();
 
@@ -196,7 +196,7 @@ namespace LuisEntityHelpers.Tests
         [TestMethod]
         public void SampleResponse14_ProcessedOk()
         {
-            var json = "{ \"type\": \"builtin.datetime.set\", \"entity\": \"daily\", {\"resolution\": { \"time\": \"XXXX-XX-XX\"} }";
+            var json = "{ \"type\": \"builtin.datetime.set\", \"entity\": \"daily\", \"resolution\": { \"time\": \"XXXX-XX-XX\"} }";
 
             var sut = new DateTimeHelper();
 

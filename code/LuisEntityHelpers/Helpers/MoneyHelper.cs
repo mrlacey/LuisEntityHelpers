@@ -19,9 +19,9 @@ namespace LuisEntityHelpers
                 throw new ArgumentNullException(nameof(entityRecommendation));
             }
 
-            if (entityRecommendation.Name == Builtin.Money)
+            if (entityRecommendation.Type == Builtin.Money)
             {
-                var entityParts = entityRecommendation.Value.Split(' ');
+                var entityParts = entityRecommendation.Entity.Split(' ');
 
                 decimal value = 1;
                 string currency = string.Empty;

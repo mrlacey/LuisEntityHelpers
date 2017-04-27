@@ -6,36 +6,17 @@
 // <author>D.A.M. Good Media Ltd.</author>
 
 using System.Collections.Generic;
-using System.Runtime.Serialization;
+using Newtonsoft.Json;
 
 namespace LuisEntityHelpers
 {
-    [DataContract]
     public class IntentRecommendation
     {
-#pragma warning disable SA1309 // Field names must not begin with underscore
-        [DataMember(Name = "intent")]
-        private string _intent = null;
+        [JsonProperty("intent")]
+        public string Name { get; set; }
 
-        [DataMember(Name = "score")]
-        private double? _score = null;
+        public double? Score { get; set; }
 
-        [DataMember(Name = "actions")]
-        private IList<Action> _actions = null;
-#pragma warning restore SA1309 // Field names must not begin with underscore
-
-        [IgnoreDataMember]
-        public string Name => this._intent?.ToLower();
-
-        [IgnoreDataMember]
-        public double? Score => this._score;
-
-        [IgnoreDataMember]
-        public IList<Action> Actions => this._actions;
-
-        public void SetIntent(string intent)
-        {
-            this._intent = intent;
-        }
+        public IList<Action> Actions { get; set; }
     }
 }

@@ -56,9 +56,9 @@ namespace LuisEntityHelpers
                 throw new ArgumentNullException(nameof(entityRecommendation));
             }
 
-            if (entityRecommendation.Name == Builtin.Age)
+            if (entityRecommendation.Type == Builtin.Age)
             {
-                var entityParts = entityRecommendation.Value.Split(' ');
+                var entityParts = entityRecommendation.Entity.Split(' ');
 
                 double value = 0;
                 var scale = string.Empty;

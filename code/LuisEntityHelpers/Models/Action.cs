@@ -9,7 +9,6 @@ using System.Collections.Generic;
 
 namespace LuisEntityHelpers
 {
-    // TODO: migrate all models from https://github.com/Microsoft/Cognitive-LUIS-Windows/blob/master/ClientLibrary/Structures/
     public class Action
     {
         public bool? Triggered { get; set; }
