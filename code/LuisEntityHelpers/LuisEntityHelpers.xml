@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>LuisEntityHelpers</name>
+    </assembly>
+    <members>
+        <member name="P:LuisEntityHelpers.DateTimeHelperSettings.IgnoreThePast">
+            <summary>
+            If set to True will not return dates in the past and will limit time ranges if they are happening now.
+            </summary>
+        </member>
+        <member name="P:LuisEntityHelpers.DateTimeHelperSettings.PresumeTimeIsPmIfNotClear">
+            <summary>
+            If true "10 O'clock" = "22:00", if false "10:00am"
+            </summary>
+        </member>
+        <member name="P:LuisEntityHelpers.DateTimeHelperSettings.StartOfDay">
+            <summary>
+            Used to set the start of a range when only a day is known
+            </summary>
+        </member>
+        <member name="P:LuisEntityHelpers.DateTimeHelperSettings.EndOfDay">
+            <summary>
+            Used to set the end of a range when only a day is known
+            </summary>
+        </member>
+        <member name="F:LuisEntityHelpers.DateTimeResolutionType.Date">
+            <summary>
+            A specific date (ignore the time part)
+            Can also access startTime and endTime so can be treated like a range
+            </summary>
+        </member>
+        <member name="F:LuisEntityHelpers.DateTimeResolutionType.Time">
+            <summary>
+            A specific time (ignore the date part)
+            </summary>
+        </member>
+        <member name="F:LuisEntityHelpers.DateTimeResolutionType.DateAndTime">
+            <summary>
+            A specifc date and time
+            </summary>
+        </member>
+        <member name="F:LuisEntityHelpers.DateTimeResolutionType.Range">
+            <summary>
+            A period with a start datetime and an end datetime
+            </summary>
+        </member>
+        <member name="F:LuisEntityHelpers.DateTimeResolutionType.Duration">
+            <summary>
+            A length of time
+            </summary>
+        </member>
+        <member name="F:LuisEntityHelpers.DateTimeResolutionType.InPastSoIgnored">
+            <summary>
+            No value will be accessible as setting to ignore the datetime was set
+            </summary>
+        </member>
+        <member name="F:LuisEntityHelpers.DateTimeResolutionType.Unsupported">
+            <summary>
+            The resolution cannot be parsed
+            </summary>
+        </member>
+    </members>
+</doc>
