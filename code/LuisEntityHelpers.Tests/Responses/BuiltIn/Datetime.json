@@ -1,0 +1,76 @@
+{
+  "query": "tomorrow",
+  "topScoringIntent": {
+    "intent": "Builtin.Datetime",
+    "score": 0.999994755
+  },
+  "intents": [
+    {
+      "intent": "Builtin.Datetime",
+      "score": 0.999994755
+    },
+    {
+      "intent": "Builtin.Number",
+      "score": 0.193002164
+    },
+    {
+      "intent": "Builtin.Ordinal",
+      "score": 0.0686458349
+    },
+    {
+      "intent": "Builtin.Temperature",
+      "score": 0.0470373072
+    },
+    {
+      "intent": "Builtin.Dimension",
+      "score": 0.0418032035
+    },
+    {
+      "intent": "None",
+      "score": 0.008310963
+    },
+    {
+      "intent": "Builtin.Url",
+      "score": 0.00198305561
+    },
+    {
+      "intent": "Builtin.Percentage",
+      "score": 2.2749713E-05
+    },
+    {
+      "intent": "Builtin.PhoneNumber",
+      "score": 7.17947E-06
+    },
+    {
+      "intent": "Builtin.Geography",
+      "score": 1.46492391E-06
+    },
+    {
+      "intent": "Builtin.Encyclopedia",
+      "score": 1.33640935E-06
+    },
+    {
+      "intent": "Builtin.Money",
+      "score": 5.7563E-07
+    },
+    {
+      "intent": "Builtin.Age",
+      "score": 3.76211034E-07
+    },
+    {
+      "intent": "Builtin.Email",
+      "score": 7.161894E-08
+    }
+  ],
+  "entities": [
+    {
+      "entity": "tomorrow",
+      "type": "builtin.datetime.date",
+      "startIndex": 0,
+      "endIndex": 7,
+      "resolution": {
+        "date": "2017-05-06"
+      }
+    }
+  ]
+}

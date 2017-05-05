@@ -1,0 +1,74 @@
+{
+  "query": "ronald regan",
+  "topScoringIntent": {
+    "intent": "Builtin.Encyclopedia",
+    "score": 0.999994755
+  },
+  "intents": [
+    {
+      "intent": "Builtin.Encyclopedia",
+      "score": 0.999994755
+    },
+    {
+      "intent": "Builtin.Number",
+      "score": 0.16692242
+    },
+    {
+      "intent": "Builtin.Ordinal",
+      "score": 0.07020556
+    },
+    {
+      "intent": "Builtin.Temperature",
+      "score": 0.0585257858
+    },
+    {
+      "intent": "Builtin.Dimension",
+      "score": 0.03647788
+    },
+    {
+      "intent": "None",
+      "score": 0.0121829864
+    },
+    {
+      "intent": "Builtin.Url",
+      "score": 0.0018860671
+    },
+    {
+      "intent": "Builtin.Geography",
+      "score": 5.5721415E-07
+    },
+    {
+      "intent": "Builtin.Datetime",
+      "score": 5.29212571E-07
+    },
+    {
+      "intent": "Builtin.Money",
+      "score": 4.574924E-07
+    },
+    {
+      "intent": "Builtin.Age",
+      "score": 3.770785E-07
+    },
+    {
+      "intent": "Builtin.Percentage",
+      "score": 3.65471777E-07
+    },
+    {
+      "intent": "Builtin.Email",
+      "score": 2.73678076E-08
+    },
+    {
+      "intent": "Builtin.PhoneNumber",
+      "score": 2.20027035E-12
+    }
+  ],
+  "entities": [
+    {
+      "entity": "ronald regan",
+      "type": "builtin.encyclopedia.people.person",
+      "startIndex": 0,
+      "endIndex": 11,
+      "score": 0.613890767
+    }
+  ]
+}

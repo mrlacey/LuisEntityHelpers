@@ -8,8 +8,6 @@ using System;
 
 namespace LuisEntityHelpers
 {
-    // TODO: implement
-    // TODO: add tests
     public class EmailHelper : HelperCore
     {
         public override IParseResponse Parse(EntityRecommendation entityRecommendation)
@@ -21,7 +19,7 @@ namespace LuisEntityHelpers
 
             if (entityRecommendation.Type == Builtin.Email)
             {
-                throw new NotImplementedException();
+                return new EmailParseResponse(entityRecommendation);
             }
             else
             {

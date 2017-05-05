@@ -1,0 +1,86 @@
+{
+  "query": "7 degrees celsius",
+  "topScoringIntent": {
+    "intent": "Builtin.Number",
+    "score": 0.198804528
+  },
+  "intents": [
+    {
+      "intent": "Builtin.Number",
+      "score": 0.198804528
+    },
+    {
+      "intent": "Builtin.Temperature",
+      "score": 0.137566537
+    },
+    {
+      "intent": "Builtin.Ordinal",
+      "score": 0.0822606161
+    },
+    {
+      "intent": "Builtin.Dimension",
+      "score": 0.042320814
+    },
+    {
+      "intent": "None",
+      "score": 0.0176476482
+    },
+    {
+      "intent": "Builtin.Url",
+      "score": 0.002370473
+    },
+    {
+      "intent": "Builtin.Age",
+      "score": 1.75732544E-06
+    },
+    {
+      "intent": "Builtin.Money",
+      "score": 1.5285259E-06
+    },
+    {
+      "intent": "Builtin.Percentage",
+      "score": 1.33408412E-06
+    },
+    {
+      "intent": "Builtin.Encyclopedia",
+      "score": 8.216953E-07
+    },
+    {
+      "intent": "Builtin.Geography",
+      "score": 3.933674E-07
+    },
+    {
+      "intent": "Builtin.Email",
+      "score": 3.578701E-07
+    },
+    {
+      "intent": "Builtin.Datetime",
+      "score": 2.926466E-07
+    },
+    {
+      "intent": "Builtin.PhoneNumber",
+      "score": 1E-15
+    }
+  ],
+  "entities": [
+    {
+      "entity": "7 degrees celsius",
+      "type": "builtin.temperature",
+      "startIndex": 0,
+      "endIndex": 16,
+      "resolution": {
+        "unit": "C",
+        "value": "7"
+      }
+    },
+    {
+      "entity": "7",
+      "type": "builtin.number",
+      "startIndex": 0,
+      "endIndex": 0,
+      "resolution": {
+        "value": "7"
+      }
+    }
+  ]
+}

@@ -8,5 +8,9 @@ namespace LuisEntityHelpers
 {
     public class PhoneNumberParseResponse : BaseParseResponse
     {
+        public PhoneNumberParseResponse(EntityRecommendation entityRecommendation)
+        {
+            this.OriginalInput = entityRecommendation;
+        }
     }
 }

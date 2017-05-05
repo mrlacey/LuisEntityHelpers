@@ -15,8 +15,7 @@ namespace LuisEntityHelpers.Tests
         [TestMethod]
         public void Sample1_ProcessedOk()
         {
-            // TODO: Replace with appropriate test
-            var json = @" { ""entity"": ""name@example.com"", ""type"": ""builtin.email"", ""startIndex"": 0, ""endIndex"": 15 }";
+            var json = @"{ ""entity"": ""555-123-4567"", ""type"": ""builtin.phonenumber"", ""startIndex"": 0, ""endIndex"": 11 }";
 
             var sut = new PhoneNumberHelper();
 

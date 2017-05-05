@@ -1,0 +1,107 @@
+{
+  "query": "555-123-4567",
+  "topScoringIntent": {
+    "intent": "Builtin.Number",
+    "score": 0.139465243
+  },
+  "intents": [
+    {
+      "intent": "Builtin.Number",
+      "score": 0.139465243
+    },
+    {
+      "intent": "Builtin.Temperature",
+      "score": 0.08900777
+    },
+    {
+      "intent": "Builtin.Ordinal",
+      "score": 0.07659037
+    },
+    {
+      "intent": "None",
+      "score": 0.0452109277
+    },
+    {
+      "intent": "Builtin.Dimension",
+      "score": 0.0312652774
+    },
+    {
+      "intent": "Builtin.Age",
+      "score": 0.003966236
+    },
+    {
+      "intent": "Builtin.Url",
+      "score": 0.00192515284
+    },
+    {
+      "intent": "Builtin.Email",
+      "score": 7.08571349E-07
+    },
+    {
+      "intent": "Builtin.Money",
+      "score": 4.6485377E-07
+    },
+    {
+      "intent": "Builtin.Percentage",
+      "score": 1.554153E-07
+    },
+    {
+      "intent": "Builtin.Encyclopedia",
+      "score": 5.433569E-08
+    },
+    {
+      "intent": "Builtin.Geography",
+      "score": 8.260427E-09
+    },
+    {
+      "intent": "Builtin.Datetime",
+      "score": 4.686691E-09
+    },
+    {
+      "intent": "Builtin.PhoneNumber",
+      "score": 1E-15
+    }
+  ],
+  "entities": [
+    {
+      "entity": "555-123-4567",
+      "type": "builtin.phonenumber",
+      "startIndex": 0,
+      "endIndex": 11
+    },
+    {
+      "entity": "555",
+      "type": "builtin.number",
+      "startIndex": 0,
+      "endIndex": 2,
+      "resolution": {
+        "value": "555"
+      }
+    },
+    {
+      "entity": "123",
+      "type": "builtin.number",
+      "startIndex": 4,
+      "endIndex": 6,
+      "resolution": {
+        "value": "123"
+      }
+    },
+    {
+      "entity": "4567",
+      "type": "builtin.number",
+      "startIndex": 8,
+      "endIndex": 11,
+      "resolution": {
+        "value": "4567"
+      }
+    },
+    {
+      "entity": "555 - 123 - 4567",
+      "type": "builtin.encyclopedia.commerce.brand",
+      "startIndex": 0,
+      "endIndex": 11,
+      "score": 0.748120666
+    }
+  ]
+}

@@ -8,7 +8,6 @@ using System;
 
 namespace LuisEntityHelpers
 {
-    // TODO: implement
     // TODO: add tests
     public class UrlHelper : HelperCore
     {
@@ -21,7 +20,7 @@ namespace LuisEntityHelpers
 
             if (entityRecommendation.Type == Builtin.Url)
             {
-                throw new NotImplementedException();
+                return new UrlParseResponse(entityRecommendation);
             }
             else
             {

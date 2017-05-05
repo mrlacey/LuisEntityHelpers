@@ -8,7 +8,6 @@ using System;
 
 namespace LuisEntityHelpers
 {
-    // TODO: implement
     // TODO: add tests
     public class EncyclopediaHelper : HelperCore
     {
@@ -21,7 +20,7 @@ namespace LuisEntityHelpers
 
             if (entityRecommendation.Type.StartsWith(Builtin.Encyclopedia.Prefix))
             {
-                throw new NotImplementedException();
+                return new EncyclopediaParseResponse(entityRecommendation);
             }
             else
             {

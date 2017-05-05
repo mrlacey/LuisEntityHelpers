@@ -1,0 +1,80 @@
+{
+  "query": "matt@example.com",
+  "topScoringIntent": {
+    "intent": "Builtin.Email",
+    "score": 0.636516154
+  },
+  "intents": [
+    {
+      "intent": "Builtin.Email",
+      "score": 0.636516154
+    },
+    {
+      "intent": "Builtin.Url",
+      "score": 0.168499783
+    },
+    {
+      "intent": "Builtin.Number",
+      "score": 0.104300216
+    },
+    {
+      "intent": "Builtin.Temperature",
+      "score": 0.070776
+    },
+    {
+      "intent": "Builtin.Ordinal",
+      "score": 0.06386992
+    },
+    {
+      "intent": "Builtin.Dimension",
+      "score": 0.0241351482
+    },
+    {
+      "intent": "None",
+      "score": 0.01831756
+    },
+    {
+      "intent": "Builtin.Money",
+      "score": 2.9548184E-07
+    },
+    {
+      "intent": "Builtin.Age",
+      "score": 2.642871E-07
+    },
+    {
+      "intent": "Builtin.Percentage",
+      "score": 8.62527756E-08
+    },
+    {
+      "intent": "Builtin.Encyclopedia",
+      "score": 2.0123716E-08
+    },
+    {
+      "intent": "Builtin.Datetime",
+      "score": 4.28712132E-09
+    },
+    {
+      "intent": "Builtin.Geography",
+      "score": 4.245248E-09
+    },
+    {
+      "intent": "Builtin.PhoneNumber",
+      "score": 1E-15
+    }
+  ],
+  "entities": [
+    {
+      "entity": "matt@example.com",
+      "type": "builtin.email",
+      "startIndex": 0,
+      "endIndex": 15
+    },
+    {
+      "entity": "example . com",
+      "type": "builtin.encyclopedia.organization.organization",
+      "startIndex": 5,
+      "endIndex": 15,
+      "score": 0.4027286
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "query": "paris",
+  "topScoringIntent": {
+    "intent": "Builtin.Number",
+    "score": 0.304180562
+  },
+  "intents": [
+    {
+      "intent": "Builtin.Number",
+      "score": 0.304180562
+    },
+    {
+      "intent": "Builtin.Ordinal",
+      "score": 0.08365438
+    },
+    {
+      "intent": "Builtin.Dimension",
+      "score": 0.06842067
+    },
+    {
+      "intent": "Builtin.Temperature",
+      "score": 0.054083012
+    },
+    {
+      "intent": "None",
+      "score": 0.009209866
+    },
+    {
+      "intent": "Builtin.Url",
+      "score": 0.00293655181
+    },
+    {
+      "intent": "Builtin.Geography",
+      "score": 0.000272094767
+    },
+    {
+      "intent": "Builtin.Datetime",
+      "score": 0.000150309716
+    },
+    {
+      "intent": "Builtin.Encyclopedia",
+      "score": 9.33688643E-05
+    },
+    {
+      "intent": "Builtin.Percentage",
+      "score": 2.2749713E-05
+    },
+    {
+      "intent": "Builtin.Money",
+      "score": 1.06519146E-05
+    },
+    {
+      "intent": "Builtin.PhoneNumber",
+      "score": 7.17947E-06
+    },
+    {
+      "intent": "Builtin.Age",
+      "score": 5.437322E-06
+    },
+    {
+      "intent": "Builtin.Email",
+      "score": 7.161894E-08
+    }
+  ],
+  "entities": [
+    {
+      "entity": "paris",
+      "type": "builtin.geography.city",
+      "startIndex": 0,
+      "endIndex": 4,
+      "score": 0.985143363
+    }
+  ]
+}

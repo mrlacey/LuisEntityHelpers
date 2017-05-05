@@ -15,8 +15,7 @@ namespace LuisEntityHelpers.Tests
         [TestMethod]
         public void Sample1_ProcessedOk()
         {
-            // TODO: Replace with appropriate test
-            var json = @" { ""entity"": ""name@example.com"", ""type"": ""builtin.email"", ""startIndex"": 0, ""endIndex"": 15 }";
+            var json = @"{ ""entity"": ""http://microsoft.com"", ""type"": ""builtin.url"", ""startIndex"": 0, ""endIndex"": 19 }";
 
             var sut = new UrlHelper();
 

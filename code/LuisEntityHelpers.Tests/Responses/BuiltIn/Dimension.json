@@ -1,0 +1,86 @@
+{
+  "query": "2 miles",
+  "topScoringIntent": {
+    "intent": "Builtin.Dimension",
+    "score": 0.7049132
+  },
+  "intents": [
+    {
+      "intent": "Builtin.Dimension",
+      "score": 0.7049132
+    },
+    {
+      "intent": "Builtin.Number",
+      "score": 0.16692245
+    },
+    {
+      "intent": "Builtin.Ordinal",
+      "score": 0.07020556
+    },
+    {
+      "intent": "Builtin.Temperature",
+      "score": 0.0585257858
+    },
+    {
+      "intent": "None",
+      "score": 0.0121829864
+    },
+    {
+      "intent": "Builtin.Url",
+      "score": 0.00188606791
+    },
+    {
+      "intent": "Builtin.Money",
+      "score": 4.295529E-06
+    },
+    {
+      "intent": "Builtin.Age",
+      "score": 3.72727868E-06
+    },
+    {
+      "intent": "Builtin.Encyclopedia",
+      "score": 6.22728E-07
+    },
+    {
+      "intent": "Builtin.Geography",
+      "score": 5.5721415E-07
+    },
+    {
+      "intent": "Builtin.Datetime",
+      "score": 5.29213537E-07
+    },
+    {
+      "intent": "Builtin.Percentage",
+      "score": 3.65472459E-07
+    },
+    {
+      "intent": "Builtin.Email",
+      "score": 2.606144E-07
+    },
+    {
+      "intent": "Builtin.PhoneNumber",
+      "score": 4.2459816E-12
+    }
+  ],
+  "entities": [
+    {
+      "entity": "2 miles",
+      "type": "builtin.dimension",
+      "startIndex": 0,
+      "endIndex": 6,
+      "resolution": {
+        "unit": "Mile",
+        "value": "2"
+      }
+    },
+    {
+      "entity": "2",
+      "type": "builtin.number",
+      "startIndex": 0,
+      "endIndex": 0,
+      "resolution": {
+        "value": "2"
+      }
+    }
+  ]
+}

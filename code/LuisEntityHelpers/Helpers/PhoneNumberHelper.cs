@@ -8,7 +8,6 @@ using System;
 
 namespace LuisEntityHelpers
 {
-    // TODO: implement
     // TODO: add tests
     public class PhoneNumberHelper : HelperCore
     {
@@ -21,7 +20,7 @@ namespace LuisEntityHelpers
 
             if (entityRecommendation.Type == Builtin.PhoneNumber)
             {
-                throw new NotImplementedException();
+                return new PhoneNumberParseResponse(entityRecommendation);
             }
             else
             {

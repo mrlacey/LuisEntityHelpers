@@ -9,11 +9,66 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Responses\BuiltIn\Age.json" />
+    <None Remove="Responses\BuiltIn\Datetime.json" />
+    <None Remove="Responses\BuiltIn\Dimension.json" />
+    <None Remove="Responses\BuiltIn\Email.json" />
+    <None Remove="Responses\BuiltIn\Encyclopedia.json" />
+    <None Remove="Responses\BuiltIn\Geography.json" />
+    <None Remove="Responses\BuiltIn\Money.json" />
+    <None Remove="Responses\BuiltIn\Number.json" />
+    <None Remove="Responses\BuiltIn\Ordinal.json" />
+    <None Remove="Responses\BuiltIn\Percentage.json" />
+    <None Remove="Responses\BuiltIn\Phonenumber.json" />
+    <None Remove="Responses\BuiltIn\Temperature.json" />
+    <None Remove="Responses\BuiltIn\Url.json" />
     <None Remove="stylecop.json" />
   </ItemGroup>
 
   <ItemGroup>
     <AdditionalFiles Include="stylecop.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Responses\BuiltIn\Age.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Responses\BuiltIn\Datetime.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Responses\BuiltIn\Dimension.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Responses\BuiltIn\Email.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Responses\BuiltIn\Encyclopedia.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Responses\BuiltIn\Geography.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Responses\BuiltIn\Money.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Responses\BuiltIn\Number.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Responses\BuiltIn\Ordinal.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Responses\BuiltIn\Percentage.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Responses\BuiltIn\Phonenumber.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Responses\BuiltIn\Temperature.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Responses\BuiltIn\Url.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
 
   <ItemGroup>

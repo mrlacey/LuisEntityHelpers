@@ -1,0 +1,80 @@
+{
+  "query": "http://microsoft.com",
+  "topScoringIntent": {
+    "intent": "Builtin.Url",
+    "score": 0.4565593
+  },
+  "intents": [
+    {
+      "intent": "Builtin.Url",
+      "score": 0.4565593
+    },
+    {
+      "intent": "Builtin.Number",
+      "score": 0.110664889
+    },
+    {
+      "intent": "Builtin.Temperature",
+      "score": 0.09657248
+    },
+    {
+      "intent": "Builtin.Ordinal",
+      "score": 0.07392495
+    },
+    {
+      "intent": "None",
+      "score": 0.0289554875
+    },
+    {
+      "intent": "Builtin.Dimension",
+      "score": 0.0255751442
+    },
+    {
+      "intent": "Builtin.Age",
+      "score": 8.057716E-07
+    },
+    {
+      "intent": "Builtin.Money",
+      "score": 8.04414867E-07
+    },
+    {
+      "intent": "Builtin.Email",
+      "score": 2.013895E-07
+    },
+    {
+      "intent": "Builtin.Percentage",
+      "score": 9.897912E-08
+    },
+    {
+      "intent": "Builtin.Encyclopedia",
+      "score": 7.36774464E-09
+    },
+    {
+      "intent": "Builtin.Datetime",
+      "score": 5.483338E-10
+    },
+    {
+      "intent": "Builtin.Geography",
+      "score": 4.48592663E-10
+    },
+    {
+      "intent": "Builtin.PhoneNumber",
+      "score": 1E-15
+    }
+  ],
+  "entities": [
+    {
+      "entity": "http://microsoft.com",
+      "type": "builtin.url",
+      "startIndex": 0,
+      "endIndex": 19
+    },
+    {
+      "entity": "microsoft . com",
+      "type": "builtin.encyclopedia.organization.organization",
+      "startIndex": 7,
+      "endIndex": 19,
+      "score": 0.4793445
+    }
+  ]
+}

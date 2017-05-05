@@ -8,5 +8,9 @@ namespace LuisEntityHelpers
 {
     public class UrlParseResponse : BaseParseResponse
     {
+        public UrlParseResponse(EntityRecommendation entityRecommendation)
+        {
+            this.OriginalInput = entityRecommendation;
+        }
     }
 }

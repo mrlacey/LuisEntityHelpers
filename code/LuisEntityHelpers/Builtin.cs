@@ -14,6 +14,7 @@ namespace LuisEntityHelpers
         public const string Temperature = "builtin.temperature";
         public const string Dimension = "builtin.dimension";
         public const string Money = "builtin.money";
+        public const string Currency = "builtin.currency";
         public const string Age = "builtin.age";
         public const string Percentage = "builtin.percentage";
         public const string Url = "builtin.url";

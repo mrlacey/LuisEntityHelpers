@@ -1,0 +1,86 @@
+{
+  "query": "9 years old",
+  "topScoringIntent": {
+    "intent": "Builtin.Number",
+    "score": 0.206663489
+  },
+  "intents": [
+    {
+      "intent": "Builtin.Number",
+      "score": 0.206663489
+    },
+    {
+      "intent": "Builtin.Ordinal",
+      "score": 0.084203884
+    },
+    {
+      "intent": "Builtin.Temperature",
+      "score": 0.0790348
+    },
+    {
+      "intent": "Builtin.Dimension",
+      "score": 0.0459643453
+    },
+    {
+      "intent": "None",
+      "score": 0.018202506
+    },
+    {
+      "intent": "Builtin.Url",
+      "score": 0.00245962059
+    },
+    {
+      "intent": "Builtin.Age",
+      "score": 0.000386202038
+    },
+    {
+      "intent": "Builtin.Money",
+      "score": 1.75516641E-06
+    },
+    {
+      "intent": "Builtin.Percentage",
+      "score": 1.33408412E-06
+    },
+    {
+      "intent": "Builtin.Encyclopedia",
+      "score": 1.01068906E-06
+    },
+    {
+      "intent": "Builtin.Email",
+      "score": 4.49616834E-07
+    },
+    {
+      "intent": "Builtin.Geography",
+      "score": 4.28137184E-07
+    },
+    {
+      "intent": "Builtin.Datetime",
+      "score": 3.03026042E-07
+    },
+    {
+      "intent": "Builtin.PhoneNumber",
+      "score": 1E-15
+    }
+  ],
+  "entities": [
+    {
+      "entity": "9",
+      "type": "builtin.number",
+      "startIndex": 0,
+      "endIndex": 0,
+      "resolution": {
+        "value": "9"
+      }
+    },
+    {
+      "entity": "9 years old",
+      "type": "builtin.age",
+      "startIndex": 0,
+      "endIndex": 10,
+      "resolution": {
+        "unit": "Year",
+        "value": "9"
+      }
+    }
+  ]
+}
