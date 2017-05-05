@@ -4,7 +4,7 @@
     <TargetFramework>netstandard1.4</TargetFramework>
     <Title>LuisEntityHelpers</Title>
     <PackageId>LuisEntityHelpers</PackageId>
-    <PackageVersion>1.0.0</PackageVersion>
+    <PackageVersion>1.0.1</PackageVersion>
     <Authors>Matt Lacey</Authors>
     <PackageProjectUrl>https://github.com/mrlacey/LuisEntityHelpers/</PackageProjectUrl>
     <PackageLicenseUrl>https://github.com/mrlacey/LuisEntityHelpers/blob/master/LICENSE</PackageLicenseUrl>
