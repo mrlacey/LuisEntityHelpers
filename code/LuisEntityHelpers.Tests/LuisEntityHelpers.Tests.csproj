@@ -22,6 +22,7 @@
     <None Remove="Responses\BuiltIn\Phonenumber.json" />
     <None Remove="Responses\BuiltIn\Temperature.json" />
     <None Remove="Responses\BuiltIn\Url.json" />
+    <None Remove="Responses\ValueAndValues.json" />
     <None Remove="stylecop.json" />
   </ItemGroup>
 
@@ -67,6 +68,9 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Responses\BuiltIn\Url.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Responses\ValueAndValues.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

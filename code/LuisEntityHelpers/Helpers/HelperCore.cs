@@ -24,13 +24,15 @@ namespace LuisEntityHelpers
             EntityRecommendation resp;
             try
             {
-                //using (var ms = new MemoryStream(Encoding.UTF8.GetBytes(entityRecommendation)))
-                //{
-                //    var ser = new DataContractJsonSerializer(typeof(EntityRecommendation), new DataContractJsonSerializerSettings { UseSimpleDictionaryFormat = true });
-                //    resp = ser.ReadObject(ms) as EntityRecommendation;
-                //}
-
-                resp = JsonConvert.DeserializeObject<EntityRecommendation>(entityRecommendation);
+                resp = JsonConvert.DeserializeObject<EntityRecommendation>(entityRecommendation,
+                    new JsonSerializerSettings
+                    {
+                        Error = (e, f) =>
+                        {
+                            System.Diagnostics.Debug.WriteLine(e);
+                            System.Diagnostics.Debug.WriteLine(f);
+                        }
+                    });
 
                 if (resp?.Type == null || resp.Entity == null)
                 {

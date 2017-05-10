@@ -31,6 +31,17 @@ namespace LuisEntityHelpers
             public const string Set = "builtin.datetime.set";
         }
 
+        public struct DateTimeV2
+        {
+            public const string Prefix = "builtin.datetimeV2";
+
+            public const string Date = "builtin.datetimeV2.date";
+            public const string Time = "builtin.datetimeV2.time";
+            public const string Duration = "builtin.datetimeV2.duration";
+            public const string Set = "builtin.datetimeV2.set";
+            public const string DateTimeRange = "builtin.datetimeV2.datetimeduration";
+        }
+
         public struct Geography
         {
             public const string Prefix = "builtin.geography";

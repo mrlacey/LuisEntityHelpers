@@ -1,0 +1,67 @@
+﻿{
+  "query": "how many reviews week of april 1",
+  "topScoringIntent": {
+    "intent": "HowManyInPeriod",
+    "score": 0.6425155
+  },
+  "intents": [
+    {
+      "intent": "HowManyInPeriod",
+      "score": 0.6425155
+    },
+    {
+      "intent": "None",
+      "score": 0.0406538881
+    },
+    {
+      "intent": "Stats",
+      "score": 0.01639733
+    },
+    {
+      "intent": "Latest",
+      "score": 0.0146328695
+    },
+    {
+      "intent": "ProActive",
+      "score": 0.000221926122
+    }
+  ],
+  "entities": [
+    {
+      "entity": "reviews",
+      "type": "feedback",
+      "startIndex": 9,
+      "endIndex": 15,
+      "score": 0.503087938
+    },
+    {
+      "entity": "1",
+      "type": "builtin.number",
+      "startIndex": 31,
+      "endIndex": 31,
+      "resolution": {
+        "value": "1"
+      }
+    },
+    {
+      "entity": "april 1",
+      "type": "builtin.datetimeV2.date",
+      "startIndex": 25,
+      "endIndex": 31,
+      "resolution": {
+        "values": [
+          {
+            "timex": "XXXX-04-01",
+            "type": "date",
+            "value": "2017-04-01"
+          },
+          {
+            "timex": "XXXX-04-01",
+            "type": "date",
+            "value": "2018-04-01"
+          }
+        ]
+      }
+    }
+  ]
+}
